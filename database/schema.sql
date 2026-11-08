@@ -1,0 +1,1 @@
+CREATE TABLE ocorrencias (id INT PRIMARY KEY);
