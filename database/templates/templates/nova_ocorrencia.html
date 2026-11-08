@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rua X - Cadastrar Novo Alerta</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <a href="#" class="btn-voltar">← Voltar</a>
+        <h1>Cadastrar Novo Alerta</h1>
+
+        <!-- Formulário de Ocorrência -->
+        <form>
+            <div class="form-group">
+                <label for="tipo-ocorrencia">Tipo de Ocorrência *</label>
+                <select id="tipo-ocorrencia" required>
+                    <option value="movimentacao-susp">⚠️ Movimentação Suspeita</option>
+                    <option value="veiculo-suspeito">🚗 Veículo Suspeito</option>
+                    <option value="portao-aberto">🔓 Portão Aberto</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="descricao">Descrição Detalhada do Evento *</label>
+                <textarea id="descricao" rows="4" required>Indivíduo caminhando lentamente e testando fechaduras dos portões.</textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="link-camera">Link da câmera (opcional)</label>
+                <input type="url" id="link-camera" value="https://camera_ruax/camera1...">
+            </div>
+
+            <p class="aviso-obrigatorio">* Campos obrigatórios</p>
+
+            <!-- Botões de Ação -->
+            <button type="submit" class="btn-publicar">Publicar</button>
+            <button type="button" class="btn-cancelar">Cancelar</button>
+        </form>
+    </div>
+</body>
+</html>
