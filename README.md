@@ -1,4 +1,5 @@
 # Rua X - Web App de Segurança Comunitária (MVP)
+.
 
 Projeto desenvolvido como protótipo de solução comunitária para aumento da segurança de pedestres e alinhamento com a **Meta 11.7 do ODS 11 (Cidades e Comunidades Sustentáveis)**.
 
