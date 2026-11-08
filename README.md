@@ -14,3 +14,5 @@ O **Rua X** é uma aplicação web mobile-first projetada para permitir que mora
 * `RF01` / `RF02`: Autenticação e cadastro de moradores.
 * `RF03`: Feed de alertas comunitários em tempo real com acessibilidade de ícone + texto.
 * Formulário padronizado para emissão de novas ocorrências.
+
+* Rua X
